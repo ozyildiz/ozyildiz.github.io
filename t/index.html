@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head> 
+	<title>Deniz &#xd6;zy&#305;ld&#305;z</title> 
+	<style> 
+		th {
+		  text-align: left;
+		}
+	</style>
+</head>
+<body> 
+	<h1>Lexical sets with audio</h1>
+
+	 <table>
+  <tr>
+    <th>Keyword</th>
+    <th>RP</th>
+    <th>GenAm</th>
+	<th>Example words</th>
+  </tr>
+  <tr>
+    <td>KIT</td>
+    <td>/&#618;/</td>
+    <td>/&#618;/</td>
+	<td>kit RP GA &#183; </td>
+  </tr>
+  <tr>
+    <td>DRESS</td>
+    <td>/e/</td>
+    <td>/&#603;/</td>
+	<td>dress</td>
+  </tr>
+</table>
+
+ <audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+ <audio id="player" src="horse.ogg"></audio>
+<div>
+    <button onclick="document.getElementById('player').play()">Play</button>
+    <button onclick="document.getElementById('player').pause()">Pause</button>
+    <button onclick="document.getElementById('player').muted=!document.getElementById('player').muted">Mute/ Unmute</button>
+</div>
+
+</body>
