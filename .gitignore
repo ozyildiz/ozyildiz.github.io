@@ -1,2 +1,5 @@
 t/
 *bak
+*.aux
+*.out
+*.log

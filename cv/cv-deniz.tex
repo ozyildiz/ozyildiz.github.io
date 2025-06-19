@@ -1,0 +1,571 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Compact Academic CV
+% LaTeX Template
+% Version 1.0 (10/6/2012)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Dario Taraborelli (http://nitens.org/taraborelli/home)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important:
+% This template needs to be compiled using XeLaTeX
+%
+% Note: this template has the option to use the Hoefler Text font, see the
+% font configurations section below for instructions on using this font
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, a4paper]{article} % Document font size and paper size
+
+\usepackage{fontspec} % Allows the use of OpenType fonts
+
+\usepackage{geometry} % Allows the configuration of document margins
+\geometry{a4paper, textwidth=5.5in, textheight=9.7in, marginparsep=7pt, marginparwidth=.6in} % Document margin settings
+\setlength\parindent{0in} % Remove paragraph indentation
+
+\usepackage[usenames,dvipsnames]{xcolor} % Custom colors
+
+\usepackage{sectsty} % Allows changing the font options for sections in a document
+\usepackage[normalem]{ulem} % Custom underlining
+\usepackage{xunicode} % Allows generation of unicode characters from accented glyphs
+\defaultfontfeatures{Mapping=tex-text} % Converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\usepackage{amsmath}
+
+\usepackage{marginnote} % For margin years
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}} % New command for including margin years
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{9pt} % Slightly increase the distance of the margin years from the contant
+\reversemarginpar
+
+\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={deniz - vita},pdfauthor={deniz}]{hyperref} % PDF setup - set your name and the title of the document to be incorporated into the final PDF file meta-information
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} % Link colors
+
+%----------------------------------------------------------------------------------------
+%	FONT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+% Two font choices are available in this template, the default is Linux Libertine, available for free at: http://www.linuxlibertine.org while the secondary choice is Hoefler Text which comes bundled with Mac OSX.
+% To use Hoefler Text, comment out the Linux Libertine block below and uncomment the Hoefler Text block. You will also need to replace the "\&" characters with "\amper{}" in section titles.
+
+\usepackage{libertine}
+% Linux Libertine Font (default)
+%\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O} % Main text font
+%\setmonofont[Scale=0.8]{Monaco} % Set mono font (e.g. phone numbers)
+\sectionfont{\mdseries\upshape\Large} % Set font options for sections
+\subsectionfont{\mdseries\upshape\large} % Set font options for subsections
+\subsubsectionfont{\mdseries\upshape\normalsize} % Set font options for subsubsections
+\chardef\&="E050 % Custom ampersand character
+
+% Hoefler Text Font (bundled with Mac OSX)
+%\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{Hoefler Text} % Main text font
+%\setmonofont[Scale=0.8]{Monaco} % Set mono font (e.g. phone numbers)
+%\setsansfont[Scale=0.9]{Optima Regular} % Set sans font, used in the main name and titles in the document
+%\newcommand{\amper}{{\fontspec[Scale=.95]{Hoefler Text}\selectfont\itshape\&}} % Custom ampersand character
+%\sectionfont{\sffamily\mdseries\large\underline} % Set font options for sections
+%\subsectionfont{\rmfamily\mdseries\scshape\normalsize} % Set font options for subsections
+%\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} % Set font options for subsubsections
+
+%----------------------------------------------------------------------------------------
+
+
+\newcommand{\me}{Deniz \"Ozy\i{}ld\i{}z}
+\newcommand{\btit}{\textit}
+\newcommand{\tdot}{$\cdot$}
+\begin{document}
+\addfontfeature{Variant=01}
+
+%----------------------------------------------------------------------------------------
+%	CONTACT AND GENERAL INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+{\LARGE Deniz \"Ozy\i ld\i z}\\[.5em] % Your name
+Universit\"at Konstanz \\
+Fachbereich Linguistik \\
+78457 Konstanz\\[.25em] 
+%University of Massachusetts, Amherst \\ % Your address
+%Department of Linguistics \\[.25em]
+%Integrative Learning Center \\
+%650 North Pleasant Street \\
+%Amherst, MA 01003-1100 
+Email:
+\href{mailto:deniz.ozyildiz@ling.uni-stuttgart.de}{deniz.ozyildiz@ling.uni-stuttgart.de}
+$\cdot$ \href{mailto:deniz.ozyildiz@uni-konstanz.de}{deniz.ozyildiz@uni-konstanz.de}\\ % Your email address
+\textsc{url}: \href{deniz.fr}{deniz.fr} % Your academic/personal website
+
+%\vfill % Whitespace between contact information and specific CV information
+
+%------------------------------------------------
+
+%Born: March 12, 1879---Ulm, Germany\\ % Your date of birth
+%Nationality: German/American % Your nationality
+
+%------------------------------------------------
+
+%\section*{Current position}
+%
+%\emph{Emeritus Professor}, Institute for Advanced Study, Princeton % Your current or previous employment position
+
+%------------------------------------------------
+%
+%\section*{Areas of specialization}
+%
+%Physics; Relativity Theory. % Your primary areas of research interest
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+% \section*{Research interests}
+% 
+% \textbf{Broad}: Theoretical and experimental semantics and pragmatics, prosody,
+% fieldwork 
+% 
+% \textbf{Narrow}: Attitude reports and clause embedding, event semantics,
+% questions, factivity, indexical shifting, nominal tense, quantification
+
+\section*{Employment}
+\years{2024--} \textbf{Substitute professor (Vertretungsprofessor)} \\
+Universit\"at Stuttgart \\[.25em]
+% (partial substitution for Judith Tonhauser) \\[.25em]
+\years{2021--2024} \textbf{Postdoctoral researcher} \\
+Universit\"at Konstanz \\
+Project: \href{https://wuegaki.ppls.ed.ac.uk/mecore/}{MECORE:
+Cross-linguistic investigation of meaning-driven combinatorial restrictions in
+clausal embedding} % \\ 
+% PIs: Maribel Romero \& Wataru Uegaki, Co-I: Floris Roelofsen
+
+\section*{Education}
+
+% \subsection*{Main}
+
+\years{2014--2021} \textbf{PhD in Linguistics} \\
+University of Massachusetts, Amherst \\
+\years{2011--2014} \textbf{MA in Cognitive Science}
+(``Cogmaster'') \\
+\'Ecole Normale Sup\'erieure, \'Ecole des Hautes \'Etudes en Sciences Sociales,
+Paris V \\
+\textbf{Dipl\^ome de l'\'Ecole Normale Sup\'erieure} \\ \'Ecole Normale
+Sup\'erieure, Department of Cognitive Science\\
+\years{2012--2013} \textbf{Visiting graduate student} \\ UCLA Linguistics \\
+\years{2010--2011} \textbf{BA in Philosophy} \\
+Paris West University, Nanterre La D\'efense \\
+\years{2008--2010} %\textbf{Kh\^agne} 
+\textbf{Classes Pr\'eparatoires aux Grandes \'Ecoles} (``kh\^agne hypokh\^agne'') \\
+Lyc\'ee Condorcet, Paris \\[-.5em]
+
+\textbf{Summer schools} \\
+\years{\hfill ---} CreteLing 1\thinspace\&\thinspace 2, Rethymnon \\
+\years{\hfill ---}ESSLLI 28, Bolzano \\ % 550 euros EACL grant
+\years{\hfill ---}SPIRIT summer school on complex clauses, G\"ottingen \\
+\years{\hfill ---}African Linguistics School 4, Yamoussoukro \\
+\years{\hfill ---}Languages and Linguistics of the Mediterranean, Cagliari \\
+\years{\hfill ---}NYI 2015, Saint Petersburg
+
+
+\section*{Writing}
+\subsection*{Papers}
+\years{in~prep} \href{https://ling.auf.net/lingbuzz/009050}{A causal explanation
+for the contrafactive gap} \\
+With Tom Roberts \\
+Submitted to \emph{Linguistics \& Philosophy} \\[.25em]
+\href{https://ling.auf.net/lingbuzz/008187}{Clauses can be modifiers, or arguments: Evidence from
+alternations in factivity and answer-orientedness in Turkish and Japanese} \\
+With Wataru Uegaki  \\
+Submitted to \emph{Natural Language and Linguistic Theory} \\[.25em]
+\href{https://ling.auf.net/lingbuzz/008113}{When can non-veridical preferential predicates take questions?} \\
+With Ciyang Qing, Floris Roelofsen, Wataru Uegaki \& Maribel Romero \\
+Submitted to \emph{Natural Language and Linguistic Theory} \\[.25em]
+\href{https://ling.auf.net/lingbuzz/007004}{Operationalizing focus-sensitivity in a cross-linguistic context} \\ 
+With Ciyang Qing, Floris Roelofsen, Wataru Uegaki \& Maribel Romero \\
+Submitted to \emph{Natural Language Semantics} \\[.25em]
+% Licensing questions \\
+% \emph{Glossa} collection \emph{Meaning-driven selectional restrictions in the domain of clause
+% embedding} \\
+\years{2025} \href{http://www.lingref.com/cpp/wccfl/41/paper3783.pdf}{How context and focus modulate form-meaning mismatches in speech
+reports} \\
+\emph{Proceedings of WCCFL 41} \\
+With Ciyang Qing Floris Roelofsen, Maribel Romero, \& Wataru Uegaki. \\[.25em]
+\years{2023} \href{https://osf.io/preprints/psyarxiv/dbh4z/}{Two question-embedding strategies and
+answer-oriented\-ness} \\
+\emph{Proceedings of SALT 33} \\
+With Wataru Uegaki \\[.25em]
+\years{} \href{https://www.mdpi.com/2226-471X/8/3/170}{On the prosodic
+exponence of universal quantification in Turkish relative clauses} \\
+\emph{Languages} special issue \emph{Theoretical Studies on Turkic Languages} \\
+With \"Omer Demirok \\[.25em]
+\years{} \href{https://aclanthology.org/2023.sigtyp-1.7/}{A Crosslinguistic
+Database for Combinatorial and Semantic Properties of Attitude Predicates} \\
+\emph{Proceedings of the ACL Special Interest Group on Typology (SIGTYP)} \\
+With Ciyang Qing, Floris Roelofsen, Wataru Uegaki \& Maribel Romero. \\[.25em]
+\years{2022}
+\href{https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/32.023}{Event
+plurality and quantiﬁer scope across clause boundaries} \\
+\emph{Proceedings of SALT 32} \\
+With Morwenna Hoeks Jonathan Pesetsky \& Tom Roberts \\[.25em]
+\href{https://deniz.fr/pdfs/jeretic-ozyildiz-ACproceedings.pdf}{Why neg-raising
+requires stativity}. \\ 
+In  \emph{Proceedings of the 23$^{\text{rd}}$ Amsterdam Colloquium}. \\ 
+With Paloma Jereti\v{c} \\[.25em]
+\href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9749017/}{Range in the use
+and realization of BIN in African American English}. \\ 
+\emph{Language \& Speech} \\
+First authors: Green, Lisa, Kristine Yu, Anissa Neal, Ayana Whitmal, Tamira Powe
+\\[.25em]
+\years{2020} \href{http://deniz.fr/pdfs/2020-ozyildiz-on-kk.pdf}{Should I move
+for focus and contrastive topic}. \\ 
+Comments on ``Focus and Contrastive Topic in Questions and Answers, with Particular Reference to Turkish'' (Kamali \& Krifka) in \emph{Theoretical Linguistics}.\\[.25em]
+\years{} Anissa Neal, Ayanna Whitmal, Lisa Green, Kristine Yu \& Deniz \"Ozy\i{}ld\i{}z. \href{https://repository.upenn.edu/pwpl/vol26/iss2/12/}{Investigation of the Effect of Contextual Factors on BIN Production in AAE}. In \btit{University of Pennsylvania Working Papers in Linguistics}: Vol.\ 26.\\[.25em]
+\years{2019} \me. \href{https://semanticsarchive.net/Archive/TQzZWUwO/}{Potential answer readings expected, missing}. In Paloma Jereti\v{c} \& Ya\v{g}mur Sa\v{g} (eds.), \btit{Proceedings of the 4th workshop on Turkic and languages in contact with Turkic}.\\[.25em]
+\years{} \"Omer Demirok, Deniz \"Ozy\i{}ld\i{}z \& Balk\i{}z \"Ozt\"urk. \href{http://deniz.fr/pdfs/2018-nels-paper.pdf}{Complementizers with attitude}. In Maggie Baird \& Jonathan Pesetsky (eds.), \btit{Proceedings of the North East Linguistics Society 49}.\\[.25em]
+\years{2018} \me, Travis Major \& Emar Maier. \href{http://deniz.fr/pdfs/2018-wccfl-paper.pdf}{Communicative reception reports as hear-say: Evidence from indexical shift in Turkish}. In Richard Stockwell et al.\ (eds.), %Maura O'Leary, Zhongshi Zu, \& Z.L. Zhou, 
+\btit{Proceedings of the 36th West Coast Conference on Formal Linguistics}. Cascadilla Proceedings Project.\\[.25em]
+\me. \href{http://deniz.fr/pdfs/possessives_paper.pdf}{Not all Turkish possessors are anti-subject oriented}. In Theodore Levin \& Ryo Masuda, \btit{Proceedings of the 10th Workshop on Altaic Formal Linguistics}. MIT Working Papers in Linguistics.\\[.25em]
+\years{2017} \me. \href{https://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/27.397/3886}{Attitude reports with and without true belief}. In Dan Burgdorf et al.\ (eds.), %Dan, Jacob Collard, Sireemas Maspong, \& Brynhildur Stef\'ansd\'ottir, 
+\btit{Proceedings of Semantics and Linguistic Theory 27}.\\[.25em]
+\me{} \& Rodica Ivan.  \href{http://deniz.fr/pdfs/2017-ozyildiz-ivan-aaa.pdf}{The Somali Microscope: Personal Pronouns, Determiners and Possession}. In Vera Hohaus \& Wanda Rohde (eds.), \btit{Proceedings of TripleA 3}. University of T\"ubingen. \\[.25em]
+Rodica Ivan \& Deniz \"Ozy\i{}ld\i{}z. \href{http://deniz.fr/pdfs/2017-ivan-ozyildiz-sub.pdf}{The temporal presuppositions of Somali definite determiners}. In Robert Truswell et al.\ (eds.), \btit{Proceedings of Sinn und Bedeutung 21}. \\[.25em]
+\years{2016} \me.  \href{http://deniz.fr/pdfs/2016-esslli.pdf}{Knowledge reports without truth}. In Marisa K\"ollner \& Ramon Ziai (eds.), \btit{Proceedings of  the ESSLLI 2016 student session}.\\[.25em]
+Kristine Yu \& Deniz \"Ozy\i{}ld\i{}z.  \href{http://deniz.fr/pdfs/2016-yu-ozyildiz-bls.pdf}{The absolutive particle \textit{ia} in Samoan}. In Emily Clem et al.\ (eds.) \btit{Proceedings of the 42nd annual meeting of the Berkeley Linguistics Society}.
+
+\subsection*{Book chapters}
+\years{2023}
+\href{https://deniz.fr/pdfs/2020-ozyildiz-etll-v41.pdf}{Quantifiers}. \\ 
+\btit{Encyclopedia of Turkic Languages and Linguistics}, Brill \\
+\years{2017} \href{http://deniz.fr/pdfs/quantifiers_draft.pdf}{Quantification in
+Turkish}. \\ 
+\btit{Handbook of Quantifiers in Natural Language: Volume II}, Springer
+
+\subsection*{Manuscripts}
+\years{2018} Unique proportions \\ 
+Rejected from Snippets \\
+\years{2015} \href{http://deniz.fr/pdfs/wafl-paper.pdf}{Move to mI, but only if
+you can} \\
+Submitted to \btit{Proceedings of the 11th Workshop on Altaic Formal
+Linguistics} \\
+\years{2012} \href{http://deniz.fr/pdfs/indexicals.pdf}{When I is not me: A
+preliminary study of shifted indexicals in Turkish}. % (Advisors: Vincent Homer \&
+% Benjamin Spector. External examiner: Philippe Schlenker.)% \'Ecole Normale
+% Sup\'erieure ms.
+%Advisors: Vincent Homer and Benjamin Spector\\
+%External examiner: Philippe Schlenker\\[.2em]
+
+\subsection*{Generals papers and theses}
+\years{2021} \href{https://ling.auf.net/lingbuzz/006338}{The event structure of attitudes} \\
+PhD thesis \\
+\years{2017} \href{http://deniz.fr/data/}{Factivity and prosody in Turkish
+attitude reports} \\
+Second generals paper \\ % (Advisors: Seth Cable, Kristine Yu. Chair: Lisa Green.)\\[.25em]
+\href{http://deniz.fr/pdfs/2017-gp1.pdf}{Knowledge reports with and without
+true belief} \\
+First generals paper \\ %  (Advisors: Vincent Homer, Rajesh Bhatt. Chair: Lisa Green.)\\[.25em]
+%\textbf{Second Generals Paper}: \href{http://deniz.fr/pdfs/2gp.pdf}{Factivity and prosody in Turkish attitude reports}\\
+%Advisors: Seth Cable, Kristine Yu\\
+%Chair: Lisa Green\\[.1em]
+% \textbf{First Generals Paper}: 
+\years{2014} Online data collection for the study of shifted indexicals
+in Turkish \\
+MA thesis % \'Ecole des Hautes \'Etudes en Sciences Sociales MA thesis.
+% (Advisor: Vincent Homer. External examiners: Pascal Amsili and Laurent
+% Roussarie.)\\[.25em]
+
+% \subsection*{Papers contributed to}
+
+\section*{Presentations}
+\subsection*{Invited}
+\years{2025} Title TBA \\
+BerlinBrnoVienna student conference \\[.25em] % July 2--4
+Title TBA \\
+MorphoSynSem colloquium, Universit\"at Potsdam \\[.25em] % June 24
+On embedded clauses as modifiers \\
+Semantics Group, NYU \\[.25em]
+De \emph{diye} \\
+10th Workshop on Turkic and Languages in Contact with Turkic
+(Tu$+$\thinspace 10), USC \\[.25em]
+A causal explanation for the contrafactive gap \\
+Workshop on How we do (not) talk about mistaken beliefs,
+Heinrich-Heine-Universit\"at D\"usseldorf \\
+with Tom Roberts \\[.25em]
+\years{2024} Composing with clauses, from the perspective of Turkish \\ 
+Theoretical Linguistics Colloquium, Universit\"at Wien \\[.25em]
+Complement clauses in Turkish: How much \emph{say}ing is necessary? \\
+IMMAGES workshop, T\"ubingen \\[.25em]
+Descriptions of mental states and events \\
+Complement Clauses C\^ote d'Azur speaker series \\[.25em]
+Descriptions of mental states and events \\
+Newcastle Linguistics Seminar Series \\[.25em]
+Aspect shapes the meaning of attitude reports. \\
+Workshop on the (De-)composition and modification of attitude predicates at the
+DGfS Annual Meeting, Bochum. \\[.25em] 
+\years{2023} Stative and eventive attitude reports. \\
+Working on Language in the Field lab, Harvard \\[.25em]
+Stative and eventive attitude reports \\
+Bochum Language Colloquium \\ [.25em]
+Composing with clauses, in Turkish and beyond \\
+Meaning and Grammar Reading Group, University of Edinburgh \\[.25em]
+Thoughts \\ 
+Linguistics Circle, University of Edinburgh \\[.25em]
+Bad attitudes: Impossible meanings and the false belief gap \\
+Meaning Language and Cognition Seminar, Universiteit van
+Amsterdam \\
+with Tom Roberts \\[.25em]
+\years{2022} Embedded questions and aspect \\
+Universit\"at Konstanz Colloquium \\[.25em]
+\years{2021} Question embedding, neg-raising, and lexical aspect \\
+MECORE kickoff workshop, online \\[.25em]
+\years{2020} Biliefs \\
+Rutgers colloquium \\[.25em]
+\years{2019} Embedded clauses in Turkish: Different paths to composition. \\
+Relativization, Nominalization, Complementation workshop, University of Toronto
+\\[.25em]
+\years{2018} Unselected questions \\
+Workshop on Altaic Formal Linguistics 14, MIT \\[.25em]
+\years{2017} Factivity and prosody in Turkish attitude reports \\ 
+MIT Ling lunch \\[.25em]
+Knowledge reports without true belief \\
+NYU Semantics Group
+
+\subsection*{Abstract reviewed talks}
+\years{2025} Ciyang Qing, \me, Maribel Romero \& Wataru Uegaki. \emph{Wondering
+hopefully/fearfully}: How do desires and inquisitive attitudes interact? SALT
+35. May 20--22. Harvard.\\[.25em]
+\years{2024} Travis Major \& \me. Bare clauses in Turkish are syntactic
+complements. Tu$+$9. Mar.\ 23--24, Cornell.\\[.25em]
+Kajsa Dj\"arv \& \me. Worries. Workshop on the (De-)composition
+and modification of attitude predicates at the DGfS Annual Meeting. Feb.\
+28--Mar.\ 1, Bochum. \\[.25em]
+\years{2023} \me\ \& Tom Roberts. Bad attitudes: Impossible presuppositions and
+the false belief gap. Fourteenth International Tbilisi Symposium on Logic,
+Language and Computation. Sept.\ 18--22, Telavi. \\ [.25em]
+\me\ \& Tom Roberts. Bad attitudes: Impossible presuppositions and
+the false belief gap. SuB 28. Ruhr Universit\"at Bochum. Sept.\ 6--8, 2023. \\[.25em]
+\me\ \& Wataru Uegaki. Two kinds of question-embedding strategies \&
+veridicality alternations. SALT 33. May 12--14 2023, Yale. \\[.25em]
+\years{2023} Deniz \"Ozy\i{}ld\i{}z, Ciyang Qing, Floris Roelofsen, Wataru
+Uegaki \& Maribel Romero. A Crosslinguistic Database for Combinatorial and
+Semantic Properties of Attitude Predicates. ACL Special
+Interest Group on Typology (SIGTYP) workshop. May 6 2023, Dubrov\-nik, Croatia
+(presented online).\\[.25em]
+\years{2023} Paloma Jereti\v{c} \& \me. Perfectivity disrupts neg-raising. NELS
+53. Jan.\ 12--14, G\"ottingen. \\[.25em]
+\years{2022} Paloma Jereti\v{c} \& \me. Why neg-raising requires stativity. The 23$^{\text{rd}}$ Amsterdam Colloquium. Dec.\ 19--21, UvA. \\[.25em]
+Deniz \"Ozy\i{}ld\i{}z, Ciyang Qing, Floris Roelofsen, Maribel Romero \& Wataru Uegaki. Cross-linguistic patterns in the selectional restrictions of preferential predicates. GLOW 45. Apr.\ 26--29 2022, QMUL.\\[.25em]
+Morwenna Hoeks, Deniz \"Ozy\i{}ld\i{}z, Jonathan Pesetsky \& Tom Roberts. Event plurality and quantiﬁer scope across clause boundaries. SALT 32. June 8--10 2022, Universidad Nacional Aut\'onoma de M\'exico \& El Colegio de M\'exico.\\[.25em]
+\years{2020} \me. Embedded clauses in Turkish: Both argumenthood and modification are paths to composition. LSA Annual Meeting. Jan.\ 2--5 2020, New Orleans.\\[.25em]
+\years{2019}  Lisa Green, Kristine Yu, Ayana Whitmal, Anissa Neal, Alejna Brugos, Deniz \"Ozy\i{}ld\i{}z. The prosody and meaning of BIN constructions in African American English. New Ways of Analyzing Variation 48. Oct.\ 10--12 2019, University of Oregon.\\ [.25em]
+\me. Two questions about embedded questions. Workshop on Turkic and languages in contact with Turkic 4. Feb.\ 16--17, NYU \& Rutgers.\\[.25em]
+\me. Describing and accounting for a `prosodic factivity alternation' in Turkish.  Experimental and Theoretical Advances in Prosody 4. Oct.\ 11--13 2018, UMass Amherst.\\[.25em]
+\me, Travis Major \& Emar Maier. Communicative reception reports as hear-say: Evidence from indexical shift in Turkish. West Coast Conference on Formal Linguistics 36. Apr.\ 20--22 2018, UCLA.\\[.25em]
+\me. Overt Quantifier Raising derives factivity and its prosody. Penn Linguistics Conference 42. Mar.\ 23--35 2018, UPenn.\\[.25em]
+\years{2017} \me. Factivity and prosody in Turkish attitude reports. Workshop on Turkish, Turkic, and the languages of Turkey 3. Nov.\ 18--19 2017, UCLA \& USC.\\[.25em]
+\me. Knowledge reports without true belief. Semantics and Linguistic Theory~27.
+May 11--14 2017, University of Maryland.\\[.25em]
+\years{2016} \me. Knowledge reports with(out) true belief. Workshop on Turkish, Turkic and the languages of Turkey 2. Nov.\ 18--20 2016, Indiana University Bloomington.\\[.25em]
+\me. Knowledge reports without truth. ESSLLI 28 Student Session, Aug.\ 18 2016, Bolzano.\\[.25em]
+Rodica Ivan \& Deniz \"Ozy\i{}ld\i{}z. The temporal presuppositions of Somali definite determiners. Definiteness across languages. June 22--24 2016, Universidad Nacional Aut\'onoma de M\'exico \& El Colegio de M\'exico.\\[.25em]
+\me{} \& Rodica Ivan. Pronouns under the Somali Microscope. The Semantics of African, Asian and Austronesian Languages 3. July 6--8 2016, T\"ubingen.\\[.25em]
+Rodica Ivan \& Deniz \"Ozy\i{}ld\i{}z. The Temporal Presuppositions of Somali Definite Determiners. The Semantics of African, Asian and Austronesian Languages 3. July 6--8 2016, T\"ubingen.\\[.25em]
+\years{} \me{} \& Rodica Ivan. {The Somali microscope: Personal pronouns,
+determiners, possession}. Annual Conference on African Linguistics 47. Mar.\ 23--26 2016, UC Berkeley.\\[.25em]
+Kristine Yu \& Deniz \"Ozy\i{}ld\i{}z. Emergence of tonal absolutive case marking in Samoan. Berkeley Linguistics Society 42. February 5--7 2016, UC Berkeley.\\[.25em]
+\years{2015} \me. {Move to mI, but only if you can}. Workshop on Altaic Formal Linguistics 11. June 4--6 2015, University of York.
+
+
+\subsection*{Abstract reviewed posters} 
+\years{2023} Ciyang Qing, \me, Floris Roelofsen, Maribel Romero, \& Wataru
+Uegaki. How context and focus modulate form-meaning mismatches in speech
+reports. WCCFL 41. May 5--7 2023, UC Santa Cruz (presented online). \\[.25em]
+\years{2022} Morwenna Hoeks, Deniz \"Ozy\i{}ld\i{}z, Jonathan Pesetsky \& Tom Roberts. Event plurality and quantiﬁer scope across clause boundaries. GLOW 45. Apr.\ 26--29 2022, QMUL.\\[.25em]
+\years{2018} \"Omer Demirok, Deniz \"Ozy\i{}ld\i{}z \& Balk\i{}z \"Ozt\"urk. \href{http://deniz.fr/pdfs/2018-nels-poster.pdf}{Complementizers in Laz are attitude sensitive}. North East Linguistic Society 49. Oct.\ 5--7 2018, Cornell.\\[.25em]
+\me. \href{http://deniz.fr/pdfs/2018-salt-poster.pdf}{A prosodic factivity alternation explained by clause movement}. Semantics and Linguistic Theory 28, May 18--20 2018, MIT.\\[.25em]
+Kouneli, Maria \& Deniz \"Ozy\i{}ld\i{}z. \href{http://deniz.fr/pdfs/2018acal-gradedntkipsigis.pdf}{Graded nominal tense in Kipsigis}. Annual Conference on African Linguistics 49, Mar. 22--25 2018, Michigan State University.\\[.25em]
+\years{2017} \me. \href{http://www.deniz.fr/pdfs/2017-wafl.pdf}{Knowledge reports without true belief}. Workshop on Altaic Formal Linguistics 13. May 25--28 2017, International Christian University, Tokyo. \\[.25em]
+\years{2016} \me{} \&  Rodica Ivan.
+\href{http://www.deniz.fr/pdfs/2016-dal-poster.pdf}{The Somali microscope:
+Personal pronouns, determiners, possession}. Definiteness across Languages. June
+22--24 2016, Universidad Nacional Aut\'onoma de M\'exico \& El Colegio de
+M\'exico.\\[.25em]
+\me. *\href{http://www.deniz.fr/pdfs/2016-wafl-poster.pdf}{Say what: A Turkish word order restriction explained by prosody}. Workshop on Altaic Formal Linguistics 12. May 13--15 2016, Central Connecticut State University.\\[.25em]
+\years{2014} \me. \href{http://deniz.fr/pdfs/possessives_poster.pdf}{Not all Turkish possessors are anti-subject oriented}. Workshop on Altaic Formal Linguistics 10. May 2--4 2014, MIT.
+
+\subsection*{Other presentations}
+\years{2024} The MECORE database. MECORE closing workshop. June 19--21 2024,
+Konstanz. \\
+With Ciyang Qing, Floris Roelofsen, Wataru Uegaki \& Maribel Romero \\[.25em]
+When can non-veridical preferential attitude predicates take
+questions? MECORE closing workshop. June 19--21 2024, Konstanz. \\
+With Ciyang Qing, Floris Roelofsen, Wataru Uegaki \& Maribel Romero \\[.25em]
+\years{2016} \me. Factivity alternates, at least in Turkish. East Coast 5. Apr.\
+16 2016, MIT.\\[.25em]
+\me. What can't you move to the right in Turkish, and why. Phonology in New
+England. Apr.\ 9 2016, NYU.\\[.25em]
+\years{} \me. {Move to mI, but only if you can}. East Coast 5. Apr.\ 11 2016,
+Harvard \& MIT.\\[.25em]
+\me. \href{http://deniz.fr/pdfs/phone_handout_v1.pdf}{A parallel OT analysis of
+exceptional stress in Turkish}. Phonology in New England. Apr.\ 4 2016,
+Yale.\\[.25em]
+\years{2014} \me. {Online data collection for the study of shifted indexicals in
+Turkish}. Southern New England Workshop on Semantics. Nov.\ 15 2014, UMass
+Amherst.\\[.25em]
+\years{2012} \me. {When I is not me: A preliminary account of shifted
+indexicvity in Turkish}. California Universities Semantics and Pragmatics 5.
+Oct.\ 27--28 2012, UCSD.
+
+\section*{Teaching}
+\subsubsection*{At Uni Stuttgart}
+\years{\mbox{SoSe 2025}} Advanced semantics: Clausal subordination \\ 
+Advanced semantics: Tense and aspect \\
+Language Variation: The sounds and structures of English varieties \\[.25em]
+\years{\mbox{WiSe 2024}} Advanced semantics: Attitude reports \\ 
+Advanced semantics: Event semantics \\ 
+Language and cognition: Introduction to psycholinguistics 
+\subsubsection*{At Uni Konstanz}
+\years{\mbox{WiSe 2023}} Intonation and meaning \\ 
+\years{\mbox{SoSe 2023}} Semantics 1 \\
+Co-taught with Maribel Romero
+\subsubsection*{At UMass}
+\years{Spring 2021} Teaching Assistant for Ling 389 ``Introduction to African American English''\\
+Instructor: Lisa Green\\
+\years{Spring 2020} Teaching Assistant for Ling 101 ``People and their language''\\
+Instructor: Magda Oiry\\
+\years{Fall 2019} Grader for Ling 201 ``Introduction to Linguistic Theory'' \\
+Instructor: Kimberly Johnson\\
+\years{Spring 2019} Primary instructor for Ling 201 ``Introduction to Linguistic Theory''\\
+\years{Fall 2018} Research Assistant for Kristine Yu, work on AAE prosody\\
+\years{Spring 2018} Teaching Assistant for Ling 397S ``Linguistics of Sign Language'' \\ Instructor: Vincent Homer\\
+\years{Fall 2017} Teaching Assistant for Ling 510 ``Introduction to Semantics'' \\
+Instructor: Peter Alrenga\\
+\years{Spring 2017} Teaching Assistant for Ling 201 ``Introduction to Linguistic Theory'' \\ Instructor: Troy Messick\\
+\years{Fall 2016} Teaching Assitant for Ling 101 ``People and their language'' \\
+Instructor: John Kingston\\
+\years{2015--2016} Research Assistant for Kristine Yu (Fall \& Spring), work on Samoan prosody
+
+\subsubsection*{Elsewhere}
+\years{2024} Intonation and meaning \\
+35$^{\text{th}}$ European Summer School for Logic Language and Information \\
+Co-taught with Kajsa Dj\"arv \\
+Leuven \\[.25em]
+Event semantics \& Intonation and meaning \\
+Eastern Generative Grammar 2024 \\
+Bra\c{s}ov \\[.25em]
+\years{2023} Semantic properties and combinatorial restrictions of attitude predicates \\	
+Co-taught with Ciyang Qing  \\
+34$^{\text{th}}$ European Summer School for Logic Language and Information \\
+University of Ljubljana \\[.25em]
+\years{2017 \& 2018} Teaching Assistant for ``Introduction to Semantics'' \\
+Instructor: Rajesh Bhatt\\
+The Crete Summer School of Linguistics\\
+University of Crete, Rethymnon 
+%July 16--27\\[.1em]
+%\years{Summer 2017} Introduction to Semantics \\
+%Instructor: Rajesh Bhatt\\
+%The Crete Summer School of Linguistics\\
+%University of Crete, Rethymnon, July 10--21
+
+\section*{Advising}
+\subsubsection*{At Uni Stuttgart}
+\years{SoSe 2025} Raheleh Soltani \\
+MA thesis topic: Resumptive pronouns in Farsi \\[.25em]
+Lea Schmidt (Uni Hohenheim) \\
+MA thesis topic: Digital media in English Language Teaching \\[.25em]
+Doruk I\c{s}\i{}ldak \\
+BA thesis topic: A nanosyntactic approach to Turkish derivational morphology 
+\subsubsection*{At Uni Konstanz}
+\years{WiSe 2024} Katharina Mattes \\
+MA thesis: ``Staying north or going south? A diachronic perspective on the
+emerging FOOT-STRUT-split in the West Midlands'' \\
+First advisor: Massimiliano Canzi \\[.25em]
+\years{SoSe 2023} Leah Doroski \\
+MA thesis: ``Neg-raising: Intensity of the attitude'' \\
+First advisor: Maribel Romero 
+
+\section*{Service}
+\subsection*{Volumes Edited}
+\years{2018} Faruk Akku\c{s}, \.Isa Kerem Bay\i{}rl\i{} \& Deniz
+\"Ozy\i{}ld\i{}z (eds.). Proceedings of the 1st Workshop on Turkish, Turkic, and
+the languages of Turkey. UMass GLSA publications.\\[.25em]
+\years{2015} Thuy Bui \& Deniz \"Ozy\i{}ld\i{}z (eds.). Proceedings of North
+East Linguistic Society 45. UMass GLSA publications.
+
+\subsection*{Ad-hoc reviews} 
+\subsubsection*{Papers}
+\years{2025} Semantics and Pragmatics, Linguistics and Philosophy, Cambridge
+Handbook of Natural Language Modality, Glossa, Natural Language and Linguistic
+Theory \\
+\years{2024} Glossa, Dilbilim Ara\c{s}t\i{}rmalar\i{} Dergisi (Journal of
+Linguistics Research), Italian Journal of Linguistics, Lingvistic\ae{}
+Investigationes, Proceedings of Tu$+$ 9, Journal of Semantics, Natural Language
+Semantics, Oxford Handbook of Non-Canonical Questions, Semantics and Pragmatics \\
+\years{2023} Natural Language Semantics, Topoi, Philosophical Studies \\
+\years{2022} Dil Dergisi, Snippets, Linguistic Inquiry, Linguistics \&
+Philosophy, Symposium on Logic and Algorithms in Computational Linguistics,
+Languages, Journal of Semantics \\ 
+\years{2021} Linguistics \& Philosophy, Glossa, Proceedings of Tu+6 \\
+\years{2020} The Linguistic Review, Theoretical Linguistics, Glossa \\
+\years{2019} Proceedings of the 4th Workshop on Turkic and languages in contact
+with Turkic, Glossa, Journal of Semantics, Dilbilim Ara\c{s}t\i{}rmalar\i{}
+Dergisi (Journal of Linguistics Research)\\%[.2em]
+\years{2017} Proceedings of the 2nd Workshop on Turkish, Turkic, and the
+languages of Turkey\\%[.2em]
+\years{2015} Journal of Asian and African Studies, Pozna\'n Studies in
+Contemporary Linguistics\\%[.2em]
+\years{2014--2015} Lingua
+
+\subsubsection*{Abstracts}
+\years{2025} ESSLLI 36 \\
+\years{2024} SALT 34, AAA 11, 6th Bo\u{g}azi\c{c}i Student Conference on
+Linguistics, ESSLLI 35, Amsterdam Colloquium 2024, Tu$+$ 10 \\
+\years{2023} SuB 28, ESSLLI 34, WAFL 17, LSA 2024, DGfS 2024, GLOW in Asia XIV,
+NELS 54, Konstanz Linguistics Conference, Tu+9, DGfS \\
+\years{2022} ESSLLI 33, GLOW in Asia XIII, Theoretical Linguistics and Languages of the Caucasus 1, NELS 53, Amsterdam Colloquium 2022, Tu+8 \\
+\years{2021} ESSLLI 32, Sensus 2, NELS 52, Tu+7\\
+\years{2020} NELS 51, SuB 25 (Workshop on the Semantics of Understudied Languages and linguistic Fieldwork), Web Summer School in Logic Language, and Information (WeSSLLI), Brussels Conference on Generative Linguistics, Tu+6\\
+\years{2019} AAA 6, ESSLLI 31, NELS 50, NaP, Tu+5, ConCALL-4\\%[.2em]
+\years{2018} WCCFL 36, ESSLLI 30, Tu+4\\%[.2em]
+\years{2017} LENLS14, ESSLLI 29, AAA4, ConCALL-3\\%[.2em]
+\years{2016} Tu+2, ConSOLE XXV\\%[.2em]
+\years{2015} ConSOLE XXIV
+
+\subsection*{Organization}
+\years{2025} The EGG \\[.25em]
+\years{2024} \href{https://wuegaki.ppls.ed.ac.uk/mecore/mecore-final-workshop/}{MECORE closing workshop}. Jun.\ 19--21, Konstanz (with Maribel Romero, Ciyang Qing, Floris Roelofsen \& Wataru Uegaki) \\[.25em]
+\years{2020} \href{https://blogs.umass.edu/sensus/}{Sensus: Constructing meaning in Romance}. Apr.\ 18--19 2020, UMass Amherst {}(with Ana Arregui, Mar\'ia Biezma, and Vincent Homer) \hfill [postponed to Sept.\ 26--27, 2020]\\[.25em]
+\years{2018} 
+\href{https://etap4.krisyu.org/}{Experimental and Theoretical Advances in Prosody 4}. Oct.\ 11--13 2018, UMass Amherst {}(for Meghan Armstrong-Abrami, Mara Breen, Heather Pon-Barry, Kristine Yu)\\[.25em]
+\href{https://sites.google.com/view/umass-eco-5/home}{East Coast 5}. Apr.\ 28, UMass Amherst {(with Jyoti Iyer)}\\[.25em]
+\years{2016}  \href{http://umass2016.nelsconference.org}{NELS 47}. Oct.\ 14--16, UMass Amherst {(}with Thuy Bui, Alexander Goebel, Rodica Ivan, Leland Kusmer, Jon Ander Mendia, Ethan~Poole \& Ekaterina Vostrikova)\\[.25em]
+\years{2015} \href{http://campuspress.yale.edu/tuworkshop1/}{1st Workshop on Turkish, Turkic, and the languages of Turkey}. Nov.\ 21--22, UMass Amherst {(}with Faruk Akku\c{s})\\[.25em]
+\years{2012 \& 2014} Member of the organization committee for the ``\href{http://forumsciencescognitives.com/}{Forum des Sciences Cognitives}''\\[.25em]
+\years{2013--2014} Treasurer of \href{http://fresco.scicog.fr/}{Fresco}\\
+ French federation of young researchers and students in cognitive science\\[.25em]
+\years{2011--2012} Treasurer of \href{http://cognivence.scicog.fr/}{Cognivence}\\
+ Parisian association for students in cognitive science
+
+\section*{Languages}
+I'm a native speaker of Turkish and near-native in English and French. I can get by increasingly in German and Dutch, and decreasingly in Spanish and Italian. I've taken more than one term of Russian and ASL and can decipher Greek and Latin with the help of a dictionary. I've worked first hand on Akan, Somali, Yal\'alag Zapotec, and Haitian Creole, and in collaboration on Kipsigis, Laz, and Samoan.
+
+%\section*{Technical Skills}
+%Praat, IbexFarm and PennController, Python, R, \LaTeX \\
+%I keep a (working) collection of my Praat scripts here: \href{https://github.com/ozyildiz/proot}{https://github.com/ozyildiz/proot}
+%
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+
+\begin{center}
+{\scriptsize Last updated: \today} 
+\end{center}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
