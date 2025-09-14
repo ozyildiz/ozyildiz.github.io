@@ -1,9 +1,26 @@
 body {
 	max-width: 75ch;
-	margin-left: auto; 
-	margin-right: auto;
+	margin: auto; 
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+nav {
+	text-align: right;
+	color: blue;
+	/* float: left; */
+	position: fixed;
+	display: inline-block;
+	margin-left: -125px;
+}
+ 
+div.content {
+	display: inline-block;
+}
+
+div.footer {
+	margin-top: 50px;
+	font-size: 12px;
 }
 
 span.liame {
@@ -36,7 +53,6 @@ a {
 	text-decoration: none;
 }
 
-div.footer {
-	margin-top: 50px;
-	font-size: 12px;
+emph {
+	font-style: italic;
 }
