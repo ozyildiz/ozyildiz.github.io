@@ -3,3 +3,4 @@ t/
 *.aux
 *.out
 *.log
+*.sw*
