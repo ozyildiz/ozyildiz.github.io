@@ -1,0 +1,58 @@
+body {
+	max-width: 75ch;
+	margin: auto; 
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav {
+	text-align: right;
+	color: blue;
+	/* float: left; */
+	position: fixed;
+	display: inline-block;
+	margin-left: -125px;
+}
+ 
+div.content {
+	display: inline-block;
+}
+
+div.footer {
+	margin-top: 50px;
+	font-size: 12px;
+}
+
+span.liame {
+	display: none;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+li {
+	margin-bottom: 12px;
+	list-style: none;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+a {
+	color: BlueViolet;
+	text-decoration: none;
+}
+
+emph {
+	font-style: italic;
+}
