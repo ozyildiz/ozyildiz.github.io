@@ -2,6 +2,16 @@ name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs: 
+  Job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Convert Markdown to HTML
+        uses: natescherer/markdown-to-html-with-github-style-action@v1
+        with:
+          path: .
+          outputpath: false
+          matchpathstructure: false
+
   Explore-GitHub-Actions: 
     runs-on: ubuntu-latest 
     steps: 
