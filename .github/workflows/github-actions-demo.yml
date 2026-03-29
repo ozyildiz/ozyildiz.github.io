@@ -9,8 +9,8 @@ jobs:
       - name: Markdown to HTML with Github Style
         uses: natescherer/markdown-to-html-with-github-style-action@v1.1.0
         with:
-          path: test.md
-          outputpath: out
+          path: ../test.md
+          outputpath: false
 #          matchpathstructure: false
 
 #  Explore-GitHub-Actions: 
