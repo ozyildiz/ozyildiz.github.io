@@ -4,12 +4,12 @@ on: [push]
 
 jobs: 
   Job:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Markdown to HTML with Github Style
         uses: natescherer/markdown-to-html-with-github-style-action@v1.1.0
         with:
-          path: .\*
+          path: ./test.md
           outputpath: out
 #          matchpathstructure: false
 
