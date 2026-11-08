@@ -1,0 +1,12 @@
+german
+english
+turkish
+french
+italian
+ukrainian
+serbian
+hungarian
+greek
+arabic (algerian?)
+fiji
+swedish
